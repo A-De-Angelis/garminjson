@@ -1,5 +1,7 @@
 {
-  "menu": [
+  "$schema": "https://raw.githubusercontent.com/A-De-Angelis/garminjson/main/garmin.json",
+  "title": "Home",
+  "items": [
     {
       "type": "toggle",
       "entity": "light.living_room",
@@ -21,32 +23,32 @@
       "label": "Kitchen Lamp"
     },
     {
-      "type": "toggle",
+      "type": "tap",
       "entity": "scene.lamps_on",
       "label": "Lamps On"
     },
     {
-      "type": "toggle",
+      "type": "tap",
       "entity": "scene.lamps_off",
       "label": "Lamps Off"
     },
     {
-      "type": "toggle",
+      "type": "tap",
       "entity": "scene.leds_on",
       "label": "LEDs On"
     },
     {
-      "type": "toggle",
+      "type": "tap",
       "entity": "scene.leds_off",
       "label": "LEDs Off"
     },
     {
-      "type": "toggle",
+      "type": "tap",
       "entity": "scene.movie_time",
       "label": "Movie Time"
     },
     {
-      "type": "toggle",
+      "type": "tap",
       "entity": "scene.lamps_soft_on",
       "label": "Lamps Soft On"
     },
