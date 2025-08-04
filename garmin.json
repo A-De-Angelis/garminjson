@@ -1,0 +1,94 @@
+{
+  "menu": [
+    {
+      "type": "toggle",
+      "entity": "light.living_room",
+      "label": "Living Room Light"
+    },
+    {
+      "type": "toggle",
+      "entity": "light.lamp_1",
+      "label": "Lamp 1"
+    },
+    {
+      "type": "toggle",
+      "entity": "light.lamp_2",
+      "label": "Lamp 2"
+    },
+    {
+      "type": "toggle",
+      "entity": "light.lamp_3",
+      "label": "Lamp 3"
+    },
+    {
+      "type": "toggle",
+      "entity": "light.lamp_4",
+      "label": "Lamp 4"
+    },
+    {
+      "type": "toggle",
+      "entity": "switch.kitchen_lamp_socket_1",
+      "label": "Kitchen Lamp"
+    },
+    {
+      "type": "toggle",
+      "entity": "light.led_strip_1",
+      "label": "LED Strip 1"
+    },
+    {
+      "type": "toggle",
+      "entity": "light.led_strip_2",
+      "label": "LED Strip 2"
+    },
+    {
+      "type": "toggle",
+      "entity": "switch.front_lights",
+      "label": "Front Lights"
+    },
+    {
+      "type": "toggle",
+      "entity": "switch.deck_light",
+      "label": "Deck Light"
+    },
+    {
+      "type": "toggle",
+      "entity": "scene.lamps_on",
+      "label": "Lamps On"
+    },
+    {
+      "type": "toggle",
+      "entity": "scene.lamps_off",
+      "label": "Lamps Off"
+    },
+    {
+      "type": "toggle",
+      "entity": "scene.leds_on",
+      "label": "LEDs On"
+    },
+    {
+      "type": "toggle",
+      "entity": "scene.leds_off",
+      "label": "LEDs Off"
+    },
+    {
+      "type": "toggle",
+      "entity": "scene.movie_time",
+      "label": "Movie Time"
+    },
+    {
+      "type": "toggle",
+      "entity": "scene.lamps_soft_on",
+      "label": "Lamps Soft On"
+    },
+    {
+      "type": "info",
+      "entity": "sensor.alec_room_temperature",
+      "label": "Alec Room Temp"
+    },
+    {
+      "type": "info",
+      "entity": "sensor.garbage_schedule_2",
+      "label": "Garbage Schedule"
+    }
+  ]
+}
