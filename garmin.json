@@ -1,61 +1,61 @@
 {
-  "$schema": "https://raw.githubusercontent.com/A-De-Angelis/garminjson/main/garmin.json",
+  "$schema": "https://raw.githubusercontent.com/house-of-abbey/GarminHomeAssistant/main/config.schema.json",
   "title": "Home",
   "items": [
     {
       "type": "toggle",
       "entity": "light.living_room",
-      "label": "Living Room Light"
+      "name": "Living Room Light"
     },
     {
       "type": "toggle",
       "entity": "light.lamp_1",
-      "label": "Lamp 1"
+      "name": "Lamp 1"
     },
     {
       "type": "toggle",
       "entity": "light.lamp_2",
-      "label": "Lamp 2"
+      "name": "Lamp 2"
     },
     {
       "type": "toggle",
       "entity": "switch.kitchen_lamp_socket_1",
-      "label": "Kitchen Lamp"
+      "name": "Kitchen Lamp"
     },
     {
       "type": "tap",
       "entity": "scene.lamps_on",
-      "label": "Lamps On"
+      "name": "Lamps On"
     },
     {
       "type": "tap",
       "entity": "scene.lamps_off",
-      "label": "Lamps Off"
+      "name": "Lamps Off"
     },
     {
       "type": "tap",
       "entity": "scene.leds_on",
-      "label": "LEDs On"
+      "name": "LEDs On"
     },
     {
       "type": "tap",
       "entity": "scene.leds_off",
-      "label": "LEDs Off"
+      "name": "LEDs Off"
     },
     {
       "type": "tap",
       "entity": "scene.movie_time",
-      "label": "Movie Time"
+      "name": "Movie Time"
     },
     {
       "type": "tap",
       "entity": "scene.lamps_soft_on",
-      "label": "Lamps Soft On"
+      "name": "Lamps Soft On"
     },
     {
       "type": "info",
       "entity": "sensor.alec_room_temperature",
-      "label": "Alec Room Temp"
+      "name": "Alec Room Temp"
     }
   ]
 }
