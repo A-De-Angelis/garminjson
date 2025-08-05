@@ -3,9 +3,54 @@
   "title": "Home",
   "items": [
     {
+      "type": "toggle",
       "entity": "light.living_room",
-      "name": "Living Room Light",
-      "type": "toggle"
+      "name": "Living Room Light"
+    },
+    {
+      "type": "toggle",
+      "entity": "light.lamp_1",
+      "name": "Lamp 1"
+    },
+    {
+      "type": "toggle",
+      "entity": "light.lamp_2",
+      "name": "Lamp 2"
+    },
+    {
+      "type": "toggle",
+      "entity": "switch.kitchen_lamp_socket_1",
+      "name": "Kitchen Lamp"
+    },
+    {
+      "type": "tap",
+      "entity": "scene.lamps_on",
+      "name": "Lamps On"
+    },
+    {
+      "type": "tap",
+      "entity": "scene.lamps_off",
+      "name": "Lamps Off"
+    },
+    {
+      "type": "tap",
+      "entity": "scene.leds_on",
+      "name": "LEDs On"
+    },
+    {
+      "type": "tap",
+      "entity": "scene.leds_off",
+      "name": "LEDs Off"
+    },
+    {
+      "type": "tap",
+      "entity": "scene.movie_time",
+      "name": "Movie Time"
+    },
+    {
+      "type": "tap",
+      "entity": "scene.lamps_soft_on",
+      "name": "Lamps Soft On"
     }
   ]
 }
