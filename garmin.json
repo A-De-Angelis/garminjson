@@ -51,11 +51,6 @@
       "type": "tap",
       "entity": "scene.lamps_soft_on",
       "name": "Lamps Soft On"
-    },
-    {
-      "type": "info",
-      "entity": "sensor.alec_room_temperature",
-      "name": "Alec Room Temp"
     }
   ]
 }
